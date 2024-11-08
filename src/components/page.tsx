@@ -230,7 +230,7 @@ export default function LandingPage() {
             className="absolute inset-0 w-full h-full"
           >
             <Image
-              src="/placeholder.svg?height=1080&width=1920"
+              src="/banner-1.jpg"
               alt="Modern apartment interior"
               layout="fill"
               objectFit="cover"
@@ -414,7 +414,7 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {blogPosts.map((post, index) => (
                 <Card key={index} className="overflow-hidden hover:shadow-lg transition-all duration-300">
-                  <Image src={post.image} alt={post.title} width={300} height={200} className="w-full h-48 object-cover" />
+                  <Image src='/blog-1.jpg' alt={post.title} width={300} height={200} className="w-full h-48 object-cover" />
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
                     <p className="text-muted-foreground mb-4">{post.excerpt}</p>
